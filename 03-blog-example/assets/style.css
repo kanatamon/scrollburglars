@@ -69,7 +69,6 @@ a {
 }
 
 .main-article {
-  overflow-x: hidden;
   padding: 0 12px;
 }
 
@@ -144,6 +143,10 @@ a {
 @media (max-width: 975px) {
   .social-icons {
     display: none;
+  }
+
+  main {
+    overflow-x: hidden;
   }
 }
 
